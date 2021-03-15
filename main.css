@@ -24,9 +24,7 @@ ul {
   li a:hover {
     color: rgb(143, 169, 241);
 
-body {
-    font-family: monospace;
-}
+  }
 
 ul {
     font-family: helvetica;
