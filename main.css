@@ -1,3 +1,29 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    color: rgb(143, 169, 241);
+
 body {
     font-family: monospace;
 }
@@ -14,4 +40,5 @@ ul {
 .light-theme {
     color: #000000;
     background: #fffddb;
+
   }
