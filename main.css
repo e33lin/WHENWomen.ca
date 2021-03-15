@@ -1,3 +1,4 @@
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -22,4 +23,22 @@ ul {
   /* Change the link color to #111 (black) on hover */
   li a:hover {
     color: rgb(143, 169, 241);
+
+body {
+    font-family: monospace;
+}
+
+ul {
+    font-family: helvetica;
+}
+
+.subhead {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.light-theme {
+    color: #000000;
+    background: #fffddb;
+
   }
