@@ -6,6 +6,11 @@ ul {
     font-family: helvetica;
 }
 
+.subhead {
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
 .light-theme {
     color: #000000;
     background: #fffddb;
