@@ -49,3 +49,14 @@ ul {
     background: #fffddb;
 
   }
+
+.faq {
+    display: none;
+ 
+  }
+
+button {
+    background-color: #ffd4fb;
+    border-width: 0.001px;
+    font-size: 16px;
+  }
