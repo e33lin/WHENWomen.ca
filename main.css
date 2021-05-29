@@ -4,6 +4,11 @@
   font-family: Poppins;
  }
 
+ /* background colour */
+ body {
+  background-color: #292929;
+  }
+
 ul {
     list-style-type: none;
     margin: 0;
