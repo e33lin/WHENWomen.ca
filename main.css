@@ -19,8 +19,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    float: right;
-    background-color: rgb(255, 255, 255);
+    float: left;
+
   }
   
   li {
@@ -29,7 +29,7 @@ ul {
   
   li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: #FCF8EE;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -37,13 +37,69 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    color: rgb(143, 169, 241);
+    color: #B4D6BD;
 
   }
 
 ul {
 
 }
+
+/* HEADER STUFF */
+
+hr {
+  top:0cm;
+  margin: 0;
+}
+
+.home-indicator{
+  width:80px;
+  height:5px;
+  background:#B4D6BD;
+}
+
+.whoweare-indicator{
+  width:110px;
+  height:5px;
+  margin-left: 90px;
+  background:#B4D6BD;
+}
+
+.initiatives-indicator{
+  width:95px;
+  height:5px;
+  margin-left: 215px;
+  background:#B4D6BD;
+}
+
+.contactus-indicator{
+  width:105px;
+  height:5px;
+  margin-left: 325px;
+  background:#B4D6BD;
+}
+
+.jointhecommunity-indicator{
+  width:180px;
+  height:5px;
+  margin-left: 445px;
+  background:#B4D6BD;
+}
+
+.shop-indicator{
+  width:65px;
+  height:5px;
+  margin-left: 640px;
+  background:#B4D6BD;
+}
+
+.blog-indicator{
+  width:53px;
+  height:5px;
+  margin-left: 715px;
+  background:#B4D6BD;
+}
+
 
 .subhead {
     font-size: 20px;
@@ -62,13 +118,12 @@ p {
 /* FOOTER STUFF */
 .footerhl {
   position: absolute;
-  width: 1440px;
+  width: 1350px;
   height: 0px;
   left: 0px;
   top: 946px;
   
   border: 1px solid #FCF8EE;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .footervl {
@@ -101,7 +156,7 @@ footeremail {
   color: #B4D6BD;
 }
 
-.footerwhoweare {
+.footer-whoweare {
   position: absolute;
   width: 115px;
   height: 27px;
@@ -115,11 +170,9 @@ footeremail {
 
   display: flex;
   align-items: center;
-
-  color: 
 }
 
-.footerblog {
+.footer-blog {
   position: absolute;
   width: 48px;
   height: 27px;
@@ -130,15 +183,12 @@ footeremail {
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
 
   display: flex;
   align-items: center;
-
-  color: #FCF8EE;
 }
 
-.footerinitiatives {
+.footer-initiatives {
   position: absolute;
   width: 89px;
   height: 27px;
@@ -149,15 +199,12 @@ footeremail {
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
 
   display: flex;
   align-items: center;
-
-  color: #FCF8EE;
 }
 
-.footershop {
+.footer-shop {
   position: absolute;
   width: 48px;
   height: 27px;
@@ -168,15 +215,12 @@ footeremail {
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
 
   display: flex;
   align-items: center;
-
-  color: #FCF8EE;
 }
 
-.footercontactus {
+.footer-contactus {
   position: absolute;
   width: 124px;
   height: 27px;
@@ -187,15 +231,12 @@ footeremail {
   font-weight: normal;
   font-size: 18px;
   line-height: 27px;
-  /* identical to box height */
 
   display: flex;
   align-items: center;
-
-  color: #FCF8EE; 
 }
 
-.footerjointhecommunity {
+.footer-jointhecommunity {
   position: absolute;
   width: 191px;
   height: 27px;
@@ -209,10 +250,43 @@ footeremail {
 
   display: flex;
   align-items: center;
+}
+
+.footer-developedby {
+  position: absolute;
+  width: 192px;
+  height: 27px;
+  left: 988px;
+  top: 965px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+
+  display: flex;
+  align-items: center;
 
   color: #FCF8EE;
 }
 
+.footer-designedby {
+  position: absolute;
+  width: 192px;
+  height: 27px;
+  left: 988px;
+  top: 1005px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;    
+
+  display: flex;
+  align-items: center;
+
+  color: #FCF8EE;
+}
 
 .hyperlink {
     font-size: 15px;
@@ -226,6 +300,7 @@ footeremail {
     margin-left: auto;
     margin-right: auto;
 }
+
 
 .faq {
     display: none;
