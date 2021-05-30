@@ -95,8 +95,116 @@ footeremail {
   color: #B4D6BD;
 }
 
-.footernavlinks {
-  
+.footerwhoweare {
+  position: absolute;
+  width: 115px;
+  height: 27px;
+  left: 317px;
+  top: 965px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+
+  display: flex;
+  align-items: center;
+
+  color: #FCF8EE;
+}
+
+.footerblog {
+  position: absolute;
+  width: 48px;
+  height: 27px;
+  left: 317px;
+  top: 1005px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #FCF8EE;
+}
+
+.footerinitiatives {
+  position: absolute;
+  width: 89px;
+  height: 27px;
+  left: 502px;
+  top: 965px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #FCF8EE;
+}
+
+.footershop {
+  position: absolute;
+  width: 48px;
+  height: 27px;
+  left: 502px;
+  top: 1005px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #FCF8EE;
+}
+
+.footercontactus {
+  position: absolute;
+  width: 124px;
+  height: 27px;
+  left: 657px;
+  top: 965px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  /* identical to box height */
+
+  display: flex;
+  align-items: center;
+
+  color: #FCF8EE; 
+}
+
+.footerjointhecommunity {
+  position: absolute;
+  width: 191px;
+  height: 27px;
+  left: 657px;
+  top: 1005px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+
+  display: flex;
+  align-items: center;
+
+  color: #FCF8EE;
 }
 
 
