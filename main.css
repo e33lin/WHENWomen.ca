@@ -14,8 +14,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    float: right;
-    background-color: rgb(255, 255, 255);
+    float: left;
+
   }
   
   li {
@@ -24,7 +24,7 @@ ul {
   
   li a {
     display: block;
-    color: rgb(0, 0, 0);
+    color: #FCF8EE;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -32,7 +32,7 @@ ul {
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    color: rgb(143, 169, 241);
+    color: #B4D6BD;
 
   }
 
@@ -52,7 +52,7 @@ ul {
 
 p {
   font-size: 14px;
-
+}
 
 .hyperlink {
     font-size: 15px;
@@ -67,11 +67,6 @@ p {
     margin-right: auto;
 }
 
-.light-theme {
-    color: #000000;
-    background: #ffdbac;
-
-  }
 
 .faq {
     display: none;
