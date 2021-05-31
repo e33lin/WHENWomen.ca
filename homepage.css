@@ -1,4 +1,4 @@
-.card {
+  .card {
     background-color: #FCF8EE;
     padding: 2px 16px;
     margin: 75px;
@@ -6,7 +6,7 @@
   }
 
   .when-intro{
-      font-size: 50px;
+      font-size: 45px;
   }
   
   .container1 {
@@ -24,3 +24,15 @@
   .learn-more:hover {
     background-color: #B4D6BD;
   }
+
+.headers {
+ font-size: 40px;
+ color: #FCF8EE;
+ text-align: center;
+}
+
+.container-images, .container-text {
+    display: flex;
+    justify-content: space-around;
+    color: #FCF8EE;
+}
