@@ -3,10 +3,11 @@
     padding: 2px 16px;
     margin: 75px;
     border-radius: 8px;
+    display: flex;
   }
 
   .when-intro{
-      font-size: 45px;
+      font-size: 32px;
   }
   
   .container1 {
@@ -24,6 +25,7 @@
   .learn-more:hover {
     background-color: #B4D6BD;
   }
+
 
 .headers {
  font-size: 40px;
