@@ -1,0 +1,26 @@
+.card {
+    background-color: #FCF8EE;
+    padding: 2px 16px;
+    margin: 75px;
+    border-radius: 8px;
+  }
+
+  .when-intro{
+      font-size: 50px;
+  }
+  
+  .container1 {
+    width: 1000px;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .learn-more {
+      color: #FCF8EE;
+      background-color: #60435E;
+      border-radius: 20px;
+      padding: 2px 15px;
+      text-decoration: none;
+  }
+  .learn-more:hover {
+    background-color: #B4D6BD;
+  }
