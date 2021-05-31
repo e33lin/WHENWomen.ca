@@ -9,7 +9,7 @@
   }
 
   /* set all link colours to be the same */
-  a {
+  .nav-link {
     color: #FCF8EE;
     text-decoration: none;
   }
@@ -112,7 +112,7 @@ hr {
   }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* FOOTER STUFF */
