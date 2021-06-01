@@ -15,5 +15,9 @@ function myFunction1() {
       x.style.display = "none";
     }
 
+    /* carousel stuff */
+
+    
+
 }
   
