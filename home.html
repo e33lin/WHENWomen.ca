@@ -47,21 +47,27 @@
 
   <!-- Full-width images with number and caption text -->
   <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="/pictures/calendar.png" style="width:100%">
-    <div class="text">Caption Text</div>
+    <div class="numbertext">1 / 4</div>
+    <img src="/pictures/carousel1.jpeg" style="width:100%">
+    <div class="text">Current Event</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="/pictures/envelope.png" style="width:100%">
-    <div class="text">Caption Two</div>
+    <div class="numbertext">2 / 4</div>
+    <img src="/pictures/carousel2.jpeg" style="width:100%">
+    <div class="text">Upcoming Event</div>
   </div>
 
   <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="/pictures/placeholder_banner.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
+    <div class="numbertext">3 / 4</div>
+    <img src="/pictures/carousel3.jpeg" style="width:100%">
+    <div class="text">Past Project</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="/pictures/carousel4.jpeg" style="width:100%">
+    <div class="text">Community Event</div>
   </div>
 
   <!-- Next and previous buttons -->
@@ -75,6 +81,7 @@
   <span class="dot" onclick="currentSlide(1)"></span>
   <span class="dot" onclick="currentSlide(2)"></span>
   <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
 </div>
 
 <script>
@@ -104,7 +111,7 @@
     slides[slideIndex-1].style.display = "block";  
     dots[slideIndex-1].className += " active";
   }
-  </script>
+</script>
 
 </body>
 
