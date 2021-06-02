@@ -136,15 +136,22 @@ p {
   margin: 0;
 }
 
-footeremail {
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footeremail {
   width: 200px;
   height: 27px;
- 
-  font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
+  color: #B4D6BD;
+}
 
+.email {
+  text-decoration: none;
   color: #B4D6BD;
 }
 
