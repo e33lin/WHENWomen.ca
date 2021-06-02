@@ -136,6 +136,11 @@ p {
   margin: 0;
 }
 
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
 footeremail {
   width: 200px;
   height: 27px;
