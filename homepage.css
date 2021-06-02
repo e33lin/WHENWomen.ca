@@ -138,52 +138,6 @@
 
 /* resource hub */
 
-.resource-card-1 {
-    width: 236px;
-    height: 280px;
-    left: 76px;
-    top: 609px;
-
-    background: #FCF8EE;
-    border-radius: 10px;
-
-    
-}
-.resource-card-2 {
-    width: 236px;
-    height: 280px;
-    left: 339px;
-    top: 609px;
-    
-    background: #FCF8EE;
-    border-radius: 10px;
-    
-}
-.resource-card-3 {
-    float:left;
-    width: 236px;
-    height: 280px;
-        
-    background: #FCF8EE;
-    border-radius: 10px;
-}
-.resource-card-4 {
-    float:left;
-    width: 236px;
-    height: 280px;
-            
-    background: #FCF8EE;
-    border-radius: 10px;
-}
-.resource-card-5 {
-    float:right;
-    width: 236px;
-    height: 280px;
-                
-    background: #FCF8EE;
-    border-radius: 10px;
-}
-
 .flex-container {
     display: flex;
 }
