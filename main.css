@@ -47,6 +47,13 @@ ul {
 
 /* HEADER STUFF */
 
+.logo {
+  float:left;
+  width: 4%;
+  height: 4%;
+   
+ /* margin-top: 15px;     if you want it vertically middle of the navbar. */
+}
 .nav-line {
   top:0cm;
   margin: 0;
@@ -55,48 +62,49 @@ ul {
 .home-indicator{
   width:80px;
   height:5px;
+  margin-left:60px;
   background:#B4D6BD;
 }
 
 .whoweare-indicator{
   width:110px;
   height:5px;
-  margin-left: 90px;
+  margin-left: 150px;
   background:#B4D6BD;
 }
 
 .initiatives-indicator{
   width:95px;
   height:5px;
-  margin-left: 215px;
+  margin-left: 275px;
   background:#B4D6BD;
 }
 
 .contactus-indicator{
   width:105px;
   height:5px;
-  margin-left: 325px;
+  margin-left: 385px;
   background:#B4D6BD;
 }
 
 .jointhecommunity-indicator{
   width:180px;
   height:5px;
-  margin-left: 445px;
+  margin-left: 505px;
   background:#B4D6BD;
 }
 
 .shop-indicator{
   width:65px;
   height:5px;
-  margin-left: 640px;
+  margin-left: 700px;
   background:#B4D6BD;
 }
 
 .blog-indicator{
   width:53px;
   height:5px;
-  margin-left: 715px;
+  margin-left: 775px;
   background:#B4D6BD;
 }
 
