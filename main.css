@@ -12,6 +12,7 @@
   .nav-link {
     color: #FCF8EE;
     text-decoration: none;
+    margin-top: 18px;
   }
 
 ul {
@@ -42,55 +43,63 @@ ul {
   }
 
 ul {
-
+  
 }
 
 /* HEADER STUFF */
 
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-logo {
+  margin:0;
+}
+
 .logo {
-  float:left;
-  width: 4%;
-  height: 4%;
+  width: 55px;
+  height: 55px;
+  margin: 0;
    
  /* margin-top: 15px;     if you want it vertically middle of the navbar. */
 }
 .nav-line {
-  top:0cm;
   margin: 0;
 }
 
 .home-indicator{
-  width:80px;
+  width:85px;
   height:5px;
-  margin-left:60px;
+  margin-left:0px;
   background:#B4D6BD;
 }
 
 .whoweare-indicator{
   width:110px;
   height:5px;
-  margin-left: 150px;
+  margin-left: 95px;
   background:#B4D6BD;
 }
 
 .initiatives-indicator{
   width:95px;
   height:5px;
-  margin-left: 275px;
+  margin-left: 220px;
   background:#B4D6BD;
 }
 
 .contactus-indicator{
   width:105px;
   height:5px;
-  margin-left: 385px;
+  margin-left: 330px;
   background:#B4D6BD;
 }
 
 .jointhecommunity-indicator{
   width:180px;
   height:5px;
-  margin-left: 505px;
+  margin-left: 450px;
   background:#B4D6BD;
 }
 
@@ -104,7 +113,7 @@ ul {
 .blog-indicator{
   width:53px;
   height:5px;
-  margin-left: 775px;
+  margin-left: 720px;
   background:#B4D6BD;
 }
 
