@@ -1,20 +1,27 @@
 <!DOCTYPE html>
+<html lang="en">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <title>WHENWomen.ca</title>
 
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+      $("#footer-placeholder").load("footer.html");
+    });
+    </script>
 <!--Navigation bar-->
 <div id="nav-placeholder">
 
 </div>
 
-<script>
-$(function(){
-  $("#nav-placeholder").load("nav.html");
-});
-</script>
+<div class = "c2">
+  <div class="whoweare-indicator"></div>
+  <hr class="nav-line" color="#FCF8EE">
+</div>
 <!--end of Navigation bar-->
+  
 
 <body class="light-theme">
 
@@ -81,3 +88,11 @@ $(function(){
 </div>
 
 </body>
+
+<!-- footer -->
+
+<div id="footer-placeholder">
+
+</div>
+
+</html>

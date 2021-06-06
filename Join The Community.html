@@ -1,42 +1,26 @@
 <!DOCTYPE html>
+<html lang="en">
 <link rel="stylesheet" href="main.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <title>WHENWomen.ca</title>
-<div class="nav-bar"> 
 
-    <div class = "c1">
-    
-      <ul class="navbar-nav">
-          <li class="nav-item">
-              <a class="nav-logo" href="home.html"><img class="logo" src="pictures/WHEN logo_whenlogo.png"></a>
-          </li>
-          
-          <li class="nav-item">
-              <a class="nav-link" href="Who We Are.html">Who We Are</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="What We've Done/Initiatives.html">Initiatives</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="Contact Us.html">Contact Us</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="Join The Community.html">Join The Community</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="https://my-store-11508237.creator-spring.com/">Shop</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="Blog.html">Blog</a>
-          </li>
-      </ul>
-    </div>
-    
-    <div class = "c2">
-      <div class="jointhecommunity-indicator"></div>
-      <hr class="nav-line" color="#FCF8EE">
-    </div>
-  </div>
+<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+    $(function(){
+      $("#nav-placeholder").load("nav.html");
+      $("#footer-placeholder").load("footer.html");
+    });
+    </script>
+<!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<div class = "c2">
+  <div class="jointhecommunity-indicator"></div>
+  <hr class="nav-line" color="#FCF8EE">
+</div>
+<!--end of Navigation bar-->
 <h1> Join Us</h1>
 
 <div class="hiring">
@@ -60,3 +44,10 @@
     <br/>
     <img src="/pictures/calendar.png" alt="calendar" width="850" height="500">
 </div>
+
+<!-- footer -->
+<div id="footer-placeholder">
+
+</div>
+</html>
+
