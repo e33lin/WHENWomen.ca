@@ -16,8 +16,3 @@ function myFunction1() {
     }
 
     /* carousel stuff */
-
-    
-
-}
-  
