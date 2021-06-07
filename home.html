@@ -86,7 +86,7 @@
 </div>
 
 <script>
-  var slideIndex = 1;
+  var slideIndex = 0;
   autoSlides();
   
   function plusSlides(n) {
@@ -113,7 +113,6 @@
     dots[slideIndex-1].className += " active";
   }
 
-  var slideIndex = 0;
   function autoSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -128,7 +127,7 @@
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
-  setTimeout(autoSlides, 2000); // Change image every 2 seconds
+  setTimeout(autoSlides, 4000); // Change image every 4 seconds
 }
 </script>
 
