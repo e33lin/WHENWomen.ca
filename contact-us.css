@@ -22,3 +22,20 @@ height: 551px;
 left: 0px;
 top: 349px;
 }
+
+.container-contactus {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+.container-contactus-left {
+    margin: 0;
+    width: 50%;
+    
+}
+
+.container-contactus-right {
+    margin: 0;
+    width: 50%;
+}

@@ -41,47 +41,36 @@
   </div>
 
   <!-- text and design -->
-  <div class="large-heading">Let's create change together</div>
-  
-  <div class="design">
-  <img src="pictures/contact-us.png"> 
+
+  <div class="container-contactus">
+
+  <div class = "container-contactus-left">
+    <div class="large-heading">Let's create change together</div>
+    
+    <div class="design">
+      <img src="pictures/contact-us.png"> 
+    </div>
+  </div>
+
+<div class = "container-contactus-right">
+<div id="tripetto"></div>
+<script src="https://unpkg.com/tripetto-runner-foundation"></script>
+<script src="https://unpkg.com/tripetto-runner-classic"></script>
+<script src="https://unpkg.com/tripetto-services"></script>
+
+<script>
+var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoic3VaaTlUaXhtU3NrSTR0Wm5jMXl1d3ZvbGtsbVVqczBWSWhKU0lSWWFDbz0iLCJkZWZpbml0aW9uIjoibjZSekNJSjF4WG0vVVRqOUJMR3VFYmoydFBZMUNSZFVLaFdtM25JS0ZyYz0iLCJ0eXBlIjoiY29sbGVjdCJ9.a2DsD8mS8vZ3f0FWhF_x5cu6PWkDEls1BXOowjI55RM" });
+
+TripettoClassic.run({
+    element: document.getElementById("tripetto"),
+    definition: tripetto.definition,
+    styles: tripetto.styles,
+    l10n: tripetto.l10n,
+    locale: tripetto.locale,
+    translations: tripetto.translations,
+    attachments: tripetto.attachments,
+    onSubmit: tripetto.onSubmit
+});
+</script>
 </div>
-
-
-<h1> Contact Us</h1>
-
-<div class="contact">
-
-<div class="socials">
- 
-<img src="/pictures/envelope.png" alt="envelope" width="50" height="25">
-email us at: 
-<br/>
-<br/>
-
-<img src="/pictures/instagram.png" alt="instagram" width="50" height="50">
-@girlupcityofto
-<br/>
-<br/>
-
-<img src="/pictures/medium.png" alt="medium blog" width="50" height="50">
-insert link here
-
-</div>
-
-<!-- bug with faq section where have to click twice to show answer but whatever -->
-<h1> FAQs:</h1>
-<button onclick="myFunction1()">How can we partner with you?</button>
-<div id="faq1" class="faq">
-  Contact us
-</div>
-</br>
-</br>
-
-<button onclick="myFunction2()">Are you a registered NPO?</button>
-<div id="faq2" class="faq">
-  Yes
-</div>
-
-
 </div>
