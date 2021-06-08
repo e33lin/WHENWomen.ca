@@ -58,7 +58,7 @@ ul {
 }
 
 .logo {
-  width: 55px;
+  width: 65px;
   height: 55px;
   margin: 0;
    
@@ -69,7 +69,7 @@ ul {
 }
 
 .home-indicator{
-  width:85px;
+  width:95px;
   height:5px;
   margin-left:0px;
   background:#B4D6BD;
@@ -78,42 +78,42 @@ ul {
 .whoweare-indicator{
   width:110px;
   height:5px;
-  margin-left: 95px;
+  margin-left: 105px;
   background:#B4D6BD;
 }
 
 .initiatives-indicator{
-  width:95px;
+  width:100px;
   height:5px;
-  margin-left: 220px;
+  margin-left: 230px;
   background:#B4D6BD;
 }
 
 .contactus-indicator{
   width:105px;
   height:5px;
-  margin-left: 330px;
+  margin-left: 340px;
   background:#B4D6BD;
 }
 
 .jointhecommunity-indicator{
-  width:180px;
+  width:187px;
   height:5px;
-  margin-left: 450px;
+  margin-left: 460px;
   background:#B4D6BD;
 }
 
 .shop-indicator{
   width:65px;
   height:5px;
-  margin-left: 700px;
+  margin-left: 710px;
   background:#B4D6BD;
 }
 
 .blog-indicator{
   width:53px;
   height:5px;
-  margin-left: 720px;
+  margin-left: 730px;
   background:#B4D6BD;
 }
 
@@ -148,10 +148,7 @@ p {
   justify-content: space-evenly;
 }
 
-.footervl {
-  border-left: 2px solid #FCF8EE;
-  margin: 0;
-}
+
 
 .socials {
   display: flex;
@@ -235,26 +232,14 @@ p {
 
 }
 
-.footer-developedby {
-  width: 192px;
+
+.container6{
   height: 27px;
+  margin-top: 13px;
 
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 27px;
-
-  color: #FCF8EE;
-}
-
-.footer-designedby {
-  width: 192px;
-  height: 27px;
-
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 27px;    
+  font-size: 18px;   
 
   color: #FCF8EE;
 }
