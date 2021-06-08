@@ -1,0 +1,24 @@
+
+.large-heading {
+position: absolute;
+width: 543px;
+height: 149px;
+left: 88px;
+top: 185px;
+
+font-weight: 600;
+font-size: 48px;
+line-height: 72px;
+display: flex;
+align-items: center;
+
+color: #B4D6BD;
+}
+
+.design{
+    position: absolute;
+width: 744px;
+height: 551px;
+left: 0px;
+top: 349px;
+}
