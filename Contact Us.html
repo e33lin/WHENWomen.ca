@@ -41,18 +41,23 @@
   </div>
 
   <!-- text and design -->
-  <div class="large-heading">Let's create change together</div>
-  
-  <div class="design">
-  <img src="pictures/contact-us.png"> 
-</div>
 
+  <div class="container-contactus">
 
-<h1> Contact Us</h1>
+  <div class = "container-contactus-left">
+    <div class="large-heading">Let's create change together</div>
+    
+    <div class="design">
+      <img src="pictures/contact-us.png"> 
+    </div>
+  </div>
+
+<div class = "container-contactus-right">
 <div id="tripetto"></div>
 <script src="https://unpkg.com/tripetto-runner-foundation"></script>
 <script src="https://unpkg.com/tripetto-runner-classic"></script>
 <script src="https://unpkg.com/tripetto-services"></script>
+
 <script>
 var tripetto = TripettoServices.init({ token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjoic3VaaTlUaXhtU3NrSTR0Wm5jMXl1d3ZvbGtsbVVqczBWSWhKU0lSWWFDbz0iLCJkZWZpbml0aW9uIjoibjZSekNJSjF4WG0vVVRqOUJMR3VFYmoydFBZMUNSZFVLaFdtM25JS0ZyYz0iLCJ0eXBlIjoiY29sbGVjdCJ9.a2DsD8mS8vZ3f0FWhF_x5cu6PWkDEls1BXOowjI55RM" });
 
@@ -67,3 +72,5 @@ TripettoClassic.run({
     onSubmit: tripetto.onSubmit
 });
 </script>
+</div>
+</div>
