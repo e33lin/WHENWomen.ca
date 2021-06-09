@@ -9,33 +9,56 @@ top: 185px;
 font-weight: 600;
 font-size: 48px;
 line-height: 72px;
-display: flex;
-align-items: center;
 
 color: #B4D6BD;
 }
 
 .design{
-    position: absolute;
-width: 744px;
-height: 551px;
+width: 100%;
 left: 0px;
-top: 349px;
+padding-top: 215px;
 }
 
 .container-contactus {
     display: flex;
     justify-content: space-evenly;
-    align-items: stretch;
+    
+    height: 100%;
 }
 
 .container-contactus-left {
     margin: 0;
     width: 50%;
-    
+    height: 100%;
 }
 
 .container-contactus-right {
     margin: 0;
     width: 50%;
+    height: 100%;
+    background-color: #FCF8EE;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    width: 80%;
+    margin-top: 95px;
+    font-size: 20px;
+}
+
+.form-form {
+    margin-top: 75px;
+}
+
+.form-outro{
+    margin-top: 75px;
+}
+
+.form-email{
+    color: #60435e;
+}
+
+html, body {
+    height:100%;
 }
