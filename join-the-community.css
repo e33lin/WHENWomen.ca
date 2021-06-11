@@ -1,9 +1,9 @@
 .aff-header {
-    position: absolute;
     width: 617px;
     height: 209px;
-    left: 296px;
-    top: 361px;
+    padding-left: 296px;
+    padding-top: 250px;
+    padding-bottom: 236px;
 
     font-weight: bold;
     font-size: 46px;
@@ -35,7 +35,7 @@
     text-align: center;
     font-size: 18px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .desc2 {
@@ -56,5 +56,4 @@
 .AFF-BTL {
     display: flex;
     justify-content: space-evenly;
->>>>>>> main
 }
