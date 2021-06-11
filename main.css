@@ -270,22 +270,6 @@ button {
     font-size: 16px;
   }
 
-  .hiring {
-    text-align: center;
-    font-size: 200%;
-  }
-
-.discord {
-  text-align: center;
-}
-
-.calendar {
-  text-align: center;
-}
-
-.contact {
-  text-align: center;
-}
 
 
 /* The actual timeline (the vertical ruler) */
