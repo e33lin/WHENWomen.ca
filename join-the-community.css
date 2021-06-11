@@ -21,3 +21,40 @@
     left: 795px;
     top: 141px;
 }
+
+.subheading {
+    color: #B4D6BD;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+.desc1 {
+    color: #FCF8EE;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.desc2 {
+    color: #FCF8EE;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 90px;
+    padding-bottom: 15px;
+}
+
+.book {
+    width: 285px;
+    height: 200px;
+    padding-top: 75px;
+    padding-left: 70px;
+}
+
+.AFF-BTL {
+    display: flex;
+    justify-content: space-evenly;
+>>>>>>> main
+}
