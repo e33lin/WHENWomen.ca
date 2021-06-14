@@ -1,3 +1,27 @@
+.aff-header {
+    width: 617px;
+    height: 209px;
+    padding-left: 296px;
+    padding-top: 250px;
+    padding-bottom: 236px;
+
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #B4D6BD;
+}
+.aff-logo {
+    position: absolute;
+    width: 378px;
+    height: 563px;
+    left: 795px;
+    top: 141px;
+}
+
 .subheading {
     color: #B4D6BD;
     font-weight: 600;
@@ -11,7 +35,7 @@
     text-align: center;
     font-size: 18px;
     padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 25px;
 }
 
 .desc2 {
