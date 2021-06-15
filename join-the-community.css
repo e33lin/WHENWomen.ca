@@ -1,9 +1,13 @@
+.banner {
+    display: flex;
+    justify-content: center;
+}
+
 .aff-header {
     width: 617px;
     height: 209px;
-    padding-left: 296px;
-    padding-top: 250px;
-    padding-bottom: 236px;
+    padding-top: 200px;
+    
 
     font-weight: bold;
     font-size: 46px;
@@ -15,7 +19,7 @@
     color: #B4D6BD;
 }
 .aff-logo {
-    position: absolute;
+    
     width: 378px;
     height: 563px;
     left: 795px;
@@ -56,4 +60,8 @@
 .AFF-BTL {
     display: flex;
     justify-content: space-evenly;
+}
+
+.calendar {
+    text-align: center;
 }
