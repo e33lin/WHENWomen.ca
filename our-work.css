@@ -1,0 +1,84 @@
+.heading1 {
+    color: #FCF8EE;
+    text-align: center;
+    font-size: 48px;
+}
+
+.sub {
+    color: #FCF8EE;
+    text-align: center;
+    padding-left: 455px;
+    padding-right: 455px;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#wwr-card {
+    width: 420px;
+    height: 255px;
+    background-color: #60435E;
+    border-radius: 4px;
+    text-align: center;
+    
+}
+
+#wwr-card:hover {
+    background-color: #FCF8EE;
+    
+}
+
+#wwr-card:hover #soon{
+    background-color: #FCF8EE;
+    color: #292929;
+}
+
+.wwr {
+    color: #F0B51C;
+    font-size: 36px;
+    width: 141px;
+    height: 70px;
+    line-height: 35px;
+    text-align: center;
+    padding-left: 139.5px;
+    padding-top: 92px;
+}
+
+#soon {
+    color: #FCF8EE;
+    font-size: 14px;
+    padding-top: 47px;
+    
+}
+
+
+#pbp-card {
+    width: 420px;
+    height: 255px;
+    background-color: #FCF8EE;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#pbp-card:hover {
+    background-color: #60435E;
+}
+
+#pbp-card:hover #pbp-date{
+    background-color: #60435E;
+    color: #FCF8EE;
+}
+
+.pbp-logo {
+    padding-top: 50px;
+}
+
+#pbp-date{
+    font-size: 14px;
+    padding-top: 5px;
+}
+
+
