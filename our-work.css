@@ -79,6 +79,7 @@
 #pbp-date{
     font-size: 14px;
     padding-top: 5px;
+
 }
 
 .statement {
@@ -109,7 +110,7 @@
     background: #FCF8EE;
     border-radius: 6px;
     width: 60%;
-    height: auto;
+    height: 100%;
     box-shadow: 0 0 50px rgba(0,0,0,0.5);
     position: relative;
     overflow: auto;
