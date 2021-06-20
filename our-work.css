@@ -54,6 +54,10 @@
     
 }
 
+.pbp1 {
+    text-decoration: none;
+    color: #292929;
+}
 
 #pbp-card {
     width: 420px;
@@ -61,6 +65,7 @@
     background-color: #FCF8EE;
     border-radius: 4px;
     text-align: center;
+   
 }
 
 #pbp-card:hover {
@@ -70,6 +75,7 @@
 #pbp-card:hover #pbp-date{
     background-color: #60435E;
     color: #FCF8EE;
+    
 }
 
 .pbp-logo {
@@ -79,6 +85,7 @@
 #pbp-date{
     font-size: 14px;
     padding-top: 5px;
+    
 }
 
 .statement {
@@ -88,4 +95,47 @@
 
 .cont-us {
     color: #B4D6BD;
+}
+
+/* modal pop up stuff */
+.overlay {
+    position:absolute;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    transition: opacity 200ms;
+    visibility: hidden;
+    opacity: 0;  
+    
+  }
+
+.popup {
+    margin: 75px auto;
+    padding: 20px;
+    background: #FCF8EE;
+    border-radius: 6px;
+    width: 60%;
+    height: 100%;
+    box-shadow: 0 0 50px rgba(0,0,0,0.5);
+    position: relative;
+    overflow: auto;
+  }
+
+.overlay:target{
+    visibility: visible;
+    opacity: 1;
+  }
+
+.exit {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close {
+    text-decoration: none;
+    color: #292929;
 }
