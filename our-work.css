@@ -116,10 +116,9 @@
     padding: 20px;
     background: #FCF8EE;
     border-radius: 6px;
-    width: 60%;
+    width: 781px;
     height: 100%;
     box-shadow: 0 0 50px rgba(0,0,0,0.5);
-    position: relative;
     overflow: auto;
   }
 
@@ -138,4 +137,20 @@
 .close {
     text-decoration: none;
     color: #292929;
+}
+
+.impact {
+    display: flex;
+}
+
+.impact-text{
+    width: 50%;
+    padding-left: 40px;
+    margin-top: 15px;
+}
+
+.ysm{
+    width: 50%;
+    text-align: center;
+    margin-top: 0;
 }
