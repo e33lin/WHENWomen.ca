@@ -143,6 +143,11 @@ p {
   border: 1px solid #FCF8EE;
 } */
 
+.foot-line {
+  margin:0;
+  margin-bottom: 7px;
+}
+
 .foot {
   display: flex;
   justify-content: space-evenly;

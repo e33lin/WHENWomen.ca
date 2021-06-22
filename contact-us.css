@@ -21,8 +21,7 @@ padding-top: 215px;
 
 .container-contactus {
     display: flex;
-    justify-content: space-evenly;
-    
+    justify-content: space-around;
     height: 100%;
 }
 
@@ -30,6 +29,7 @@ padding-top: 215px;
     margin: 0;
     width: 50%;
     height: 100%;
+   
 }
 
 .container-contactus-right {
@@ -39,6 +39,7 @@ padding-top: 215px;
     background-color: #FCF8EE;
     display: flex;
     justify-content: center;
+   
 }
 
 .form {
@@ -52,12 +53,14 @@ padding-top: 215px;
 }
 
 .form-outro{
-    margin-top: 75px;
+    margin-top: 55px;
+    
 }
 
 .form-email{
     color: #60435e;
     text-decoration: none;
+    
 }
 
 html, body {
