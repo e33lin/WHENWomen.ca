@@ -120,21 +120,26 @@
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
+  /*-webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
-  animation-duration: 1.5s;
+  animation-duration: 1.5s;*/
+
+
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    100% { left: 0; }
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+    100% { left: 0; }
 }
+
 
 /* resource hub */
 
@@ -158,3 +163,4 @@
 .flex-child:not(:first-child) {
     margin-right: 20px;
 } 
+
