@@ -158,3 +158,29 @@
 .flex-child:not(:first-child) {
     margin-right: 20px;
 } 
+
+.resourcehubpics {
+  margin: 0;
+  border-radius: 10px;
+  width: 236px;
+  height: 280px;
+}
+
+
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.active, .collapsible:hover {
+
+}
+
+.resources {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #FCF8EE;
+}
