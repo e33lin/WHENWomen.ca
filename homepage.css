@@ -166,3 +166,41 @@
     margin-right: 20px;
 } 
 
+.purpose {
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.purpose-text{
+  color:#FCF8EE;
+  text-align: center;
+  padding-top: 180px;
+  padding-left: 50px;
+}
+
+.purpose-pic {
+  padding-right: 50px;
+  
+}
+
+.vision {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.vision-pic {
+  height: 50%;
+  width: 50%;
+  padding-left: 50px;
+}
+
+.vision-text{
+  color:#FCF8EE;
+  text-align: center;
+  padding-right: 50px;
+  padding-top: 120px;
+}
