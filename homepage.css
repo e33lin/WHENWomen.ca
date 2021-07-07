@@ -224,7 +224,7 @@
 
 .text {
     position: absolute;
-    bottom: 0px;
+    bottom: 20px;
     opacity: 0;
     padding: 10px;
 }
