@@ -17,6 +17,7 @@
     justify-content: space-evenly;
 }
 
+/* wwr card */
 #wwr-card {
     width: 420px;
     height: 255px;
@@ -54,6 +55,7 @@
     
 }
 
+/* pbp card */
 .pbp1 {
     text-decoration: none;
     color: #292929;
