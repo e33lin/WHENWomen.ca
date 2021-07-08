@@ -94,6 +94,7 @@
 }
 
 /* Number text (1/3 etc) */
+/* this is currently not used, but keeping the css here in the case of future changes */
 .numbertext {
   color: #f2f2f2;
   font-size: 12px;
