@@ -147,6 +147,12 @@
 
 /* resource hub */
 
+.rh-desc {
+  color: #FCF8EE;
+  text-align: center;
+  font-size: 18px;
+}
+
 .resourcehub {
     margin: 0;
     padding: 0;

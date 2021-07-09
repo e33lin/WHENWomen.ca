@@ -157,3 +157,8 @@
     margin-top: 0;
     padding-left:220px;
 }
+
+.imp {
+    display: flex;
+    justify-content: space-between;
+}
