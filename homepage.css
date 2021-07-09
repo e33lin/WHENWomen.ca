@@ -147,27 +147,6 @@
 
 /* resource hub */
 
-.flex-container {
-    display: flex;
-}
-
-.flex-child {
-    flex: 1;
-    border: 2px solid white;
-    width: 236px;
-    height: 280px;
-    background: #FCF8EE;
-    border-radius: 10px;
-}  
-
-.flex-child:first-child {
-    margin-right: 20px;
-} 
-
-.flex-child:not(:first-child) {
-    margin-right: 20px;
-} 
-
 .resourcehub {
     margin: 0;
     padding: 0;
@@ -202,15 +181,16 @@
     height: 400px;
     flex-wrap: wrap;
     min-width: 0;
-    overflow-x: hidden;
-    overflow-y: auto;
+    /*overflow-x: hidden;*/
+    overflow-y: scroll;
+    min-height: 0;
     /*text-align:justify;*/
 }
 .a1 {
     background-image: url(/pictures/resource-hub/resource-hub-1.png);
 }
 .a2 {
-    background-image: url("https://images.pexels.com/photos/1056555/pexels-photo-1056555.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260")
+    background-image: url(/pictures/resource-hub/resource-hub-2.png);
 }
 .a3 {
     background-image: url("https://images.pexels.com/photos/129207/pexels-photo-129207.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
