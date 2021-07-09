@@ -195,6 +195,7 @@
     transition: .7s;
     box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.47);
     min-width: 0;
+    
 }
 .box:hover{
     flex: 20;
@@ -202,7 +203,7 @@
     flex-wrap: wrap;
     min-width: 0;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     /*text-align:justify;*/
 }
 .a1 {
@@ -228,6 +229,7 @@
     bottom: 20px;
     opacity: 0;
     padding: 10px;
+    height: 400px;
 }
 .box:hover .text{
     opacity:1;
