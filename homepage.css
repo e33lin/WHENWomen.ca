@@ -205,12 +205,13 @@
 .text {
     position: absolute;
     bottom: 20px;
-    opacity: 0;
+    display: none;
     padding: 10px;
     height: 400px;
 }
 .box:hover .text{
     opacity:1;
+    display: inline;
 }
 
 @media screen and (max-width: 800px){
